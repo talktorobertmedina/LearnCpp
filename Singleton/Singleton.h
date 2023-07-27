@@ -8,6 +8,6 @@ public:
 	Singleton getInstance();
 protected:
 private:
-	Singleton m_instance;
+	Singleton* m_instance;
 };
 
